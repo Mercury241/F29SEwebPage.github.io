@@ -89,6 +89,7 @@ div.who{
 }
 ul.who{
   list-style: none;
+  padding: 30px;
 }
 li.who{
   padding: 20px;
