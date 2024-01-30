@@ -90,6 +90,6 @@ div.who{
 ul.who{
   list-style: none;
 }
-p.who{
-  
+li.who{
+  padding: 20px;
 }
