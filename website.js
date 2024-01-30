@@ -1,10 +1,11 @@
 document.addEventListener("scroll", function () {
     const navbar = document.querySelector(".navi");
-    const navbarHeight = 5;
+    const navbarHeight = 0;
     const distanceFromTop = Math.abs(document.body.getBoundingClientRect().top);
     if (distanceFromTop >= navbarHeight) navbar.classList.add("scroll-top");
     else navbar.classList.remove("scroll-top");
   });
+
   window.smoothScroll = function(target) {
     var scrollContainer = target;
     do { //find scroll container
@@ -13,7 +14,7 @@ document.addEventListener("scroll", function () {
         scrollContainer.scrollTop += 1;
     } while (scrollContainer.scrollTop == 0);
 
-    var targetY = 0;
+    var targetY = -100;
     do { //find the top of target relatively to the container
         if (target == scrollContainer) break;
         targetY += target.offsetTop;
