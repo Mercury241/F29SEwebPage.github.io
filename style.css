@@ -29,6 +29,7 @@ ul.navi {
   background-color: #2C698D;
   position:relative;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 ul.navi.scroll-top {
   list-style-type: none;
@@ -39,6 +40,7 @@ ul.navi.scroll-top {
   position: fixed;
   top: 0;
   width: 100%;
+  
 }
 li.navi {
   float: left;   
@@ -51,6 +53,7 @@ li a.navi {
   padding-top: 46px;
   padding-bottom: 44px;
   text-decoration: none;
+  
 }
 li a:hover.navi {
   Background-color: #BAE8E8;
@@ -67,8 +70,9 @@ li a.funcs{
   padding-top: 46px;
   padding-bottom: 44px;
   text-decoration: none;
+ 
 }
-li button:hover.funcs{
+li a:hover.funcs{
   Background-color: #BAE8E8;
   color:#2C698D;
 }
@@ -76,7 +80,7 @@ div.tag{
   background-color: #BAE8E8;
   color: #272643;
   padding: 15.5px;
-  padding-top:115px;
+  padding-top:125px;
 }
 h1.tag{
   text-align: center;
@@ -88,12 +92,21 @@ h2.studylink{
   text-align: center;
   Background-color: #2C698D;
   color:#E3F6F5;
-  padding:10px;
+  padding:5px;
 }
 a.studylink{
+  background-color: #2C698D;
+  border: none;
+  padding: 0px 20px;
+  text-align: center;
   text-decoration: none;
-  
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 45%;
+  cursor: pointer;
+
 }
+
 div.what{
   padding-top: 40px;
   padding-bottom: 40px;
