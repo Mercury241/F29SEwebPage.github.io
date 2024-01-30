@@ -146,25 +146,20 @@ li.who{
   padding-bottom: 10px;
 }
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: #E3F6F5;
   cursor: pointer;
-  padding-left: 10%;
-  width: 70%;
+  width: 33%;
   border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+  text-align: center;
   display:inline-block;
+  margin: 4px 33%;
 }
-
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #2C698D;
+  color:#E3F6F5;
 }
-
 .collapsible:after {
   content: '\002B';
-  color: white;
   font-weight: bold;
   float: right;
   margin-left: 5px;
