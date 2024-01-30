@@ -28,6 +28,7 @@ document.addEventListener("scroll", function () {
     // start scrolling
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
+function collapse(){
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -41,4 +42,4 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
   });
-}
+}}

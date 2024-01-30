@@ -153,6 +153,7 @@ li.who{
   text-align: center;
   display:inline-block;
   margin: 4px 33%;
+  
 }
 .active, .collapsible:hover {
   background-color: #2C698D;
@@ -162,7 +163,8 @@ li.who{
   content: '\002B';
   font-weight: bold;
   float: right;
-  margin-left: 5px;
+  margin-left: 0px;
+  
 }
 
 .active:after {
@@ -170,9 +172,13 @@ li.who{
 }
 
 .content {
-  padding: 0 18px;
+  margin: 4px 33%;
+  padding: 0px 18px;
+  display: block-inline;
+  max-width: 31.15%;
   max-height: 0;
+  border: none;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  transition: max-height 0.3s ease-out;
+  background-color: #E3F6F5;
 }

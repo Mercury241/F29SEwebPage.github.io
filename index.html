@@ -13,7 +13,7 @@
     <ul class="navi scroll-top">
         <li class="logo"><a class="logo" href="index.html"><h1>StudyRooms.com</h1></a></li>
         <li class="navi"><a class="navi" onclick="smoothScroll(document.getElementById('what'))">Overview</a></li>
-        <li class="navi"><a class="navi" onclick="smoothScroll(document.getElementById('who'))">Features</a></li>
+        <li class="navi"><a class="navi" onclick="smoothScroll(document.getElementById('how'))">Features</a></li>
         <li class="navi"><a class="navi" onclick="smoothScroll(document.getElementById('who'))">Contact</a></li>
         <li class="funcs"><a class="funcs" href="studyrooms">StudyRooms</a></li> 
     </ul>
@@ -34,13 +34,13 @@
 </div>
 <div class="how" id="how">
     <h1 class="how">Features</h1>
-    <button class="collapsible"><h2 class="how ed">Document Creation And Editing</h2></button>
-    <div class="content"><p>Easily create, import and edit documents collaboratively with your classmates, co-workers and peers using our online text editor.</p></div>
-    <button class="collapsible"><h2 class="how doc">Document Storing And Sharing</h2></button>
+    <button class="collapsible" onclick="collapse()"><h2 class="how ed">Document Creation And Editing</h2></button>
+    <div class="content" onclick="collapse()"><p>Easily create, import and edit documents collaboratively with your classmates, co-workers and peers using our online text editor.</p></div>
+    <button class="collapsible" onclick="collapse()"><h2 class="how doc">Document Storing And Sharing</h2></button>
     <div class="content"><p>All of your documents can be stored in the StudyRooms cloud storage, easily accessed through your account and shared with your peers.</p></div>
-    <button class="collapsible"><h2 class="how msg">Messaging And Group Chats</h2></button>
+    <button class="collapsible" onclick="collapse()"><h2 class="how msg">Messaging And Group Chats</h2></button>
     <div class="content"><p>Invite your peers to a group chat to be able to communicate through text and share ideas and documents.</p></div>
-    <button class="collapsible"><h2 class="how vid">Video Conferencing And Voice Calls</h2></button>
+    <button class="collapsible" onclick="collapse()"><h2 class="how vid">Video Conferencing And Voice Calls</h2></button>
     <div class="content"><p>Innovative voice and video call features to be able to confer with peers effectively and efficiently.</p></div>
     
 </div>
@@ -54,7 +54,6 @@
         <li class="who"><h2 class="tom">Phoenix May</h2><p class="who">pm2024@hw.ac.uk</p></li>
         <li class="who"><h2 class="tom">Alex McHale</h2><p class="who">am2015@hw.ac.uk</p></li>
     </ul>
-    
 </div>
 </body>
 
