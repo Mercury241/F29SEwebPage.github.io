@@ -4,6 +4,7 @@ body{
 }
 h1.logo{
   text-align: left;
+  padding:0px;
 }
 li.logo{
   float: left;
@@ -11,55 +12,70 @@ li.logo{
 }
 li a.logo{
   display: block;
-  color: #e6d7d7;
+  color: #E3F6F5;
   text-align: center;
-  padding: 34.5px;
+  padding: 15.5px;
   text-decoration: none;
 }
 li a:hover.logo{
-  Background-color: #5e5c5c;
+  Background-color: #BAE8E8;
+  color:#2C698D;
 }
 ul.navi {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #0f0f0f8f;
+  background-color: #2C698D;
+  position:relative;
+  transition: all 0.3s ease-out;
+}
+ul.navi.scroll-top {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #2C698D;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 li.navi {
   float: left;   
 }
 li a.navi {
   display: block;
-  color: #e6d7d7;
+  color: #E3F6F5;
   text-align: center;
-  padding: 32px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 20px;
+  padding-top: 46px;
+  padding-bottom: 44px;
   text-decoration: none;
 }
 li a:hover.navi {
-  background-color: #5e5c5c;
+  Background-color: #BAE8E8;
+  color:#2C698D;
 }
 li.funcs{
   float:right;
 }
 li a.funcs{
   display: block;
-  color: #e6d7d7;
+  color: #E3F6F5;
   text-align: center;
-  padding: 32px;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding: 20px;
+  padding-top: 46px;
+  padding-bottom: 44px;
   text-decoration: none;
 }
 li a:hover.funcs{
-  background-color: #5e5c5c;
+  Background-color: #BAE8E8;
+  color:#2C698D;
 }
 div.tag{
-  background-color: #5e5c5c;
-  color: #e6d7d7;
-  padding: 26px;
+  background-color: #BAE8E8;
+  color: #272643;
+  padding: 15.5px;
 }
 h1.tag{
   text-align: center;
@@ -69,31 +85,39 @@ p.tag{
 }
 h2.studylink{
   text-align: center;
-  background-color: #e6d7d7;
-  color:black;
-  size: 10px 24px;
+  Background-color: #2C698D;
+  color:#E3F6F5;
+  padding:10px;
 }
 a.studylink{
   text-decoration: none;
+  
 }
 div.what{
   padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 10%;
+  background-color:#FFFFFF ;
 }
 div.why{
-  background-color: gainsboro;
+  background-color: #E3F6F5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 10%;
+  text-align: right;
 }
 h1.who{
   text-align:center;
 }
 div.who{
-  padding: 32px;
-  background-color:#e9e1e1 ;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:#FFFFFF ;
 }
 ul.who{
   list-style: none;
   padding: 30px;
 }
 li.who{
-  padding: 50px;
+  padding: 20px;
 }
