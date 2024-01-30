@@ -1,0 +1,95 @@
+body{
+  margin: 0px;
+  font-family: Lucida Console;
+}
+h1.logo{
+  text-align: left;
+}
+li.logo{
+  float: left;
+  margin: 0px 0px;
+}
+li a.logo{
+  display: block;
+  color: #e6d7d7;
+  text-align: center;
+  padding: 34.5px;
+  text-decoration: none;
+}
+li a:hover.logo{
+  Background-color: #5e5c5c;
+}
+ul.navi {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #0f0f0f8f;
+}
+li.navi {
+  float: left;   
+}
+li a.navi {
+  display: block;
+  color: #e6d7d7;
+  text-align: center;
+  padding: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-decoration: none;
+}
+li a:hover.navi {
+  background-color: #5e5c5c;
+}
+li.funcs{
+  float:right;
+}
+li a.funcs{
+  display: block;
+  color: #e6d7d7;
+  text-align: center;
+  padding: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-decoration: none;
+}
+li a:hover.funcs{
+  background-color: #5e5c5c;
+}
+div.tag{
+  background-color: #5e5c5c;
+  color: #e6d7d7;
+  padding: 26px;
+}
+h1.tag{
+  text-align: center;
+}
+p.tag{
+  text-align: center;
+}
+h2.studylink{
+  text-align: center;
+  background-color: #e6d7d7;
+  color:black;
+  size: 10px 24px;
+}
+a.studylink{
+  text-decoration: none;
+}
+div.what{
+  padding-top: 40px;
+  padding-left: 10%;
+}
+h1.who{
+  text-align:center;
+}
+div.who{
+  padding: 32px;
+  background-color:#e9e1e1 ;
+}
+ul.who{
+  list-style: none;
+}
+p.who{
+  
+}
