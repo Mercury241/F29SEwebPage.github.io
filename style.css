@@ -68,7 +68,7 @@ li a.funcs{
   padding-bottom: 44px;
   text-decoration: none;
 }
-li a:hover.funcs{
+li button:hover.funcs{
   Background-color: #BAE8E8;
   color:#2C698D;
 }
