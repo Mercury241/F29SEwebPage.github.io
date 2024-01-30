@@ -80,6 +80,9 @@ div.what{
   padding-top: 40px;
   padding-left: 10%;
 }
+div.why{
+  background-color: gainsboro;
+}
 h1.who{
   text-align:center;
 }
