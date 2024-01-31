@@ -110,6 +110,9 @@ div.what{
   padding-left: 10%;
   background-color:#FFFFFF ;
 }
+p.whatp{
+  padding-right: 60px;
+}
 div.why{
   background-color: #E3F6F5;
   padding-top: 40px;
