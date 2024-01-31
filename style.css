@@ -15,6 +15,7 @@ li a.logo{
   text-align: center;
   padding: 15.5px;
   text-decoration: none;
+  cursor: pointer;
 }
 li a:hover.logo{
   Background-color: #BAE8E8;
