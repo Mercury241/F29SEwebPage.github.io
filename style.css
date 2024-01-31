@@ -163,7 +163,7 @@ li.who{
   text-align: center;
   display:inline-block;
   margin: 4px 33%;
-  
+  font-family: Lucida Console;
 }
 .active, .collapsible:hover {
   background-color: #2C698D;
