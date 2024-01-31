@@ -200,5 +200,8 @@ img.image1{
 img.image2{
   align-items: left;
   margin-left:1.6%;
-  padding-top: 10px;
+}
+img.img{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
