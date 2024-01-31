@@ -15,6 +15,7 @@ li a.logo{
   text-align: center;
   padding: 15.5px;
   text-decoration: none;
+  cursor: pointer;
 }
 li a:hover.logo{
   Background-color: #BAE8E8;
@@ -121,6 +122,11 @@ div.why{
   padding-right: 10%;
   text-align: right;
 }
+h1.start{
+  text-align: center;
+  margin-left:10%;
+  padding-top:10px;
+}
 div.how{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -157,7 +163,7 @@ li.who{
   text-align: center;
   display:inline-block;
   margin: 4px 33%;
-  
+  font-family: Lucida Console;
 }
 .active, .collapsible:hover {
   background-color: #2C698D;
