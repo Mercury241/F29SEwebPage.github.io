@@ -193,7 +193,7 @@ li.who{
   background-color: #E3F6F5;
 }
 img.image1{
-  float: right;
+  align-items: center;
   margin-right:2.2%;
   padding-top: 10px;
 }
