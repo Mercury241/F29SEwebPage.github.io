@@ -79,11 +79,12 @@ li a:hover.funcs{
 div.tag{
   background-color: #BAE8E8;
   color: #272643;
-  padding: 15.5px;
+
   padding-top:125px;
 }
 h1.tag{
   text-align: center;
+
 }
 p.tag{
   text-align: center;
@@ -92,17 +93,17 @@ h2.studylink{
   text-align: center;
   Background-color: #2C698D;
   color:#E3F6F5;
-  padding:5px;
+  padding:7px;
 }
 a.studylink{
   background-color: #2C698D;
   border: none;
-  padding: 0px 20px;
+  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 45%;
+  margin: 4px 47%;
   cursor: pointer;
 }
 div.what{
