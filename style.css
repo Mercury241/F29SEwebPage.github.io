@@ -121,6 +121,11 @@ div.why{
   padding-right: 10%;
   text-align: right;
 }
+h1.start{
+  text-align: center;
+  margin-left:10%;
+  padding-top:10px;
+}
 div.how{
   padding-top: 40px;
   padding-bottom: 40px;
